@@ -15,12 +15,12 @@
 
 ## cd: Change Directory
 
-|        Command        | Description                    |
-| :-------------------: | ------------------------------ |
-|   `cd /` <br/> `cd`   | Trở về thư mục root            |
-|      `cd home/`       | Vào thư mục home               |
-|   `cd home/reactjs`   | Vào thư mục reactjs trong home |
-| `cd -` <br/> `cd ../` | Back về thư mục cha            |
+|      Command      | Description                    |
+| :---------------: | ------------------------------ |
+| `cd /` <br/> `cd` | Trở về thư mục root            |
+|    `cd home/`     | Vào thư mục home               |
+| `cd home/reactjs` | Vào thư mục reactjs trong home |
+|     `cd ../`      | Back về thư mục cha            |
 
 ## clear: clear old commands
 
@@ -160,5 +160,11 @@
 |        `tab tab`         | Hiện thị tất cả file thư mục khi cd                       |
 |        `ctrl + a`        | Di chuyển con trỏ về đầu dòng                             |
 |        `ctrl + e`        | Di chuyển con trỏ về cuối dòng                            |
+|        `alt + b`         | Di chuyển con trỏ về trước 1 từ                           |
+|        `alt + f`         | Di chuyển con trỏ về sau 1 từ                             |
+|        `ctrl + w`        | Xóa 1 cụm từ ở bên trái                                   |
+|        `ctrl + k`        | Xóa tất cả nội dung ở bên phải                            |
+|        `ctrl + u`        | Xóa dòng command đang gõ                                  |
+|        `ctrl + c`        | Hủy bỏ command hiện tại đang thực thi                     |
 |  `command-1;command-2`   | Chạy đồng thời nhiều command (không phân biệt hoàn thành) |
 | `command-1 && command-2` | Chỉ chạy command phía sau khi command trước hoàn thành    |
